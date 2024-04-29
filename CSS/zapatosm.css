@@ -38,7 +38,7 @@ header a:hover {
     
 }
 nav a{
-    margin: 50px;
+    margin-right: 80px;
     color: aliceblue;
     font-size: 23px;
     transform: all ease 300ms;

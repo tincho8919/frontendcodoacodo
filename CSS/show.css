@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+nav a{
+    margin-right: 80px;
+    font-size: 15px;
+    transform: all ease 300ms;
+    text-align: center;
+    
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light .navbar-nav .nav-link {
+    color: darkblue; 
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light .navbar-nav .nav-link:hover {
+    color: blue; 
+}
+
+nav a:hover{
+    color: blue;
+    font-size: 30px;
+    text-decoration: none;
+    transform: scale(1.2);
+    
+
+}
+.icono{
+    display: flex;
+    flex-direction: row;
+    font-size: 26px;
+    color: goldenrod;
+}
+.compras{
+    position: fixed;
+    margin-top: 100px;
+    right: 0;
+    opacity: 0.4;
+    
+}
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    
+  }
+  
+  /* Estilos para las columnas */
+  .col-6,
+  .col-3 {
+    float: left;
+    padding: 15px;
+  }
+  
+  .col-6 {
+    width: 50%;
+  }
+  
+  .col-3 {
+    width: 25%;
+  }
+  
+  .col-s-9,
+  .col-s-12 {
+    width: 100%;
+    padding: 15px;
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Estilos para el cuerpo */
+  main {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Estilos para el contenido */
+  .content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Centrar contenido */
+    max-width: 600px; /* Ancho máximo */
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  
+  

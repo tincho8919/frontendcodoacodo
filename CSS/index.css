@@ -9,44 +9,26 @@
     font-style: normal;
 }
 
-header{
-    /* position: fixed; */
-    /* position: none; */
-    display: flex;
-    flex-direction: row;
-    background-color: blueviolet;
-    width: 100%;
-    
-}
-
-header a {
-    color: black;
-    font-size: 17px;
-    align-items: center;
-}
-
-header a:hover {
-    color: blue;
-}
-.nav{
-    text-align: center;
-    border-radius: 15px;
-    width: auto;
-    background-color: yellowgreen;
-    box-shadow: 10px 5px 8px green;
-    margin: 15px auto;
-    padding: 15px;
-    
-}
 nav a{
     margin-right: 80px;
-    color: aliceblue;
-    font-size: 23px;
+    font-size: 15px;
     transform: all ease 300ms;
+    text-align: center;
     
 }
+
+.navbar.navbar-expand-lg.navbar-light.bg-light .navbar-nav .nav-link {
+    color: darkblue; /* Cambiar el color del texto a blanco */
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light .navbar-nav .nav-link:hover {
+    color: blue; /* Cambiar el color del texto a blanco */
+}
+
 nav a:hover{
-    font-size: 26px;
+    color: blue;
+    font-size: 30px;
+    text-decoration: none;
     transform: scale(1.2);
     
 
@@ -54,8 +36,8 @@ nav a:hover{
 .icono{
     display: flex;
     flex-direction: row;
-    font-size: 40px;
-    color: antiquewhite;
+    font-size: 26px;
+    color: goldenrod;
 }
 .compras{
     position: fixed;

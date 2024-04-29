@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    background-color: blueviolet;
+    width: 100%;
+    
+}
+
+header a {
+    color: black;
+    font-size: 17px;
+    align-items: center;
+}
+
+header a:hover {
+    color: blue;
+}
+.nav{
+    text-align: center;
+    border-radius: 15px;
+    width: auto;
+    background-color: yellowgreen;
+    box-shadow: 10px 5px 8px green;
+    margin: 15px auto;
+    padding: 15px;
+    
+}
+nav a{
+    margin: 50px;
+    color: aliceblue;
+    font-size: 23px;
+    transform: all ease 300ms;
+}
+nav a:hover{
+    font-size: 26px;
+    transform: scale(1.2);
+
+}
+.icono{
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    color: antiquewhite;
+}
+.compras{
+    position: fixed;
+    margin-top: 255px;
+    right: 0;
+    opacity: 0.4;
+    
+}

@@ -46,3 +46,70 @@ nav a:hover{
     opacity: 0.4;
     
 }
+
+body {
+    background-color: plum;
+}
+
+.productos-container {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+   
+}
+
+.producto {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    transform: all ease 300ms;
+}
+.producto:hover{
+    font-size: 17px;
+    transform: scale(1.2);
+}
+.producto img {
+    max-width: 100%;
+    height: 400px;
+    width: 100%;
+    
+
+}
+
+.agregar-al-carrito {
+    background-color: purple;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transform: all ease 300ms;
+}
+
+.agregar-al-carrito:hover {
+    background-color: violet;
+    font-size: 17px;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px){
+    .productos-container {
+        display: grid;
+        gap: 40px;
+        grid-template-columns: 1fr 1fr;
+        
+       
+    }
+	}
+@media screen and (max-width: 600px){
+    .productos-container {
+        display: grid;
+        gap: 50px;
+        grid-template-columns: 1fr;
+        
+       
+    }
+	}

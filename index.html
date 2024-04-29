@@ -15,36 +15,39 @@
     <link rel="shortcut icon" href="./IMAGENES/icono/icons8-trainers-50.png" type="image/x-icon">
     <link rel="stylesheet" href="./CSS/index.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a href="./index.html" class="icono">
-                <img class="animate__animated animate__zoomIn" src="./IMAGENES/icono/icons8-trainers-50.png" alt="icono">
+                <img class="animate__animated animate__zoomIn" src="./IMAGENES/icono/icons8-trainers-50.png"
+                    alt="icono">
                 <p class="animate__animated animate__rotateIn">Calzados</p>
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./main/zapatillash.html">Zapatillas Hombre</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./main/zapatosm.html">Zapatos Mujer</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="./main/contactanos.html">Contactanos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="./main/sobrenosotros.html">Sobre Nosotro</a>
-                  </li>
-              </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./main/zapatillash.html">Zapatillas Hombre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./main/zapatosm.html">Zapatos Mujer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="./main/contactanos.html">Contactanos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="./main/sobrenosotros.html">Sobre Nosotro</a>
+                    </li>
+                </ul>
             </div>
-          </nav>
+        </nav>
     </header>
     <main>
         <div class="compras">
@@ -81,6 +84,38 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
+            </div>
+        </div>
+        <div class="productos-container">
+            <div class="producto">
+                <img src="/IMAGENES/promocionimg/1.jpg" alt="Producto 1">
+                <h2>Promocion hot</h2>
+                <p>Precio: $9540.99</p>
+                <div class="container">
+                    <form action="/ventas" method="post" id="miFormulario">
+                        <input type="hidden" name="nombre" value="NN-nn">
+                        <input type="hidden" name="imagen" value="/articulos/1.jpg">
+                        <input type="hidden" name="precio" value="654000.99">
+                        <div class="text-center">
+                            <button type="submit" class="agregar-al-carrito">Agregar al carrito</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="/IMAGENES/promocionimg/2.jpg!f305cw" alt="Producto 2">
+                <h2>Promocion cool</h2>
+                <p>Precio: $8540.99</p>
+                <div class="container">
+                    <form action="/ventas" method="post" id="miFormulario">
+                        <input type="hidden" name="nombre" value="ll M-50">
+                        <input type="hidden" name="imagen" value="/articulos/2.jpg">
+                        <input type="hidden" name="precio" value="254000.99">
+                        <div class="text-center">
+                            <button type="submit" class="agregar-al-carrito">Agregar al carrito</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </main>

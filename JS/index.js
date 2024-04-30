@@ -1,8 +1,9 @@
 
-/* const ham = document.querySelector('.ham');
-const enlaces = document.querySelector('.nav');
+document.addEventListener('DOMContentLoaded', function () {
+    const formulario = document.getElementById('miFormulario');
 
-
-ham.addEventListener('click', () => {
-    enlaces.classList.toggle('activado');
-}); */
+    formulario.addEventListener('submit', function (event) {
+        event.preventDefault();
+        formulario.submit();
+    });
+});

@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+nav a{
+    margin-right: 80px;
+    font-size: 15px;
+    transform: all ease 300ms;
+    text-align: center;
+    
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light .navbar-nav .nav-link {
+    color: darkblue; 
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light .navbar-nav .nav-link:hover {
+    color: blue; 
+}
+
+nav a:hover{
+    color: blue;
+    font-size: 30px;
+    text-decoration: none;
+    transform: scale(1.2);
+    
+
+}
+.icono{
+    display: flex;
+    flex-direction: row;
+    font-size: 26px;
+    color: goldenrod;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+}
+.tarjeta{
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.tarjeta img{
+    width: 100%;
+}
+.img{
+    height: 200px;
+}
+.h1{
+    text-align: center;
+    color: brown;
+}
+.cuerpo{
+    margin: 10px;
+}
+
+h1{
+    color: gold;
+}

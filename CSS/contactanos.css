@@ -9,14 +9,14 @@
     font-style: normal;
 }
 
-nav a {
-    margin-right: 80px;
-    font-size: 15px;
+nav a{
+    font-size: 20px;
     transform: all ease 300ms;
     text-align: center;
-
+    padding: 0 50px;
+    
+    
 }
-
 .navbar.navbar-expand-lg.navbar-light.bg-light .navbar-nav .nav-link {
     color: darkblue;
 }

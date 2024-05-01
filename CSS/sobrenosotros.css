@@ -10,10 +10,11 @@
 }
 
 nav a{
-    margin-right: 80px;
-    font-size: 15px;
+    font-size: 20px;
     transform: all ease 300ms;
     text-align: center;
+    padding: 0 50px;
+    
     
 }
 
@@ -39,10 +40,45 @@ nav a:hover{
     font-size: 26px;
     color: goldenrod;
 }
-.compras{
-    position: fixed;
-    margin-top: 100px;
-    right: 0;
-    opacity: 0.4;
+body{
+    background-color: yellow;
+}
+.titulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    gap: 30px;
+    border: 1px solid black;
+    cursor: pointer;
+    max-width: 100%;
+    background-color: burlywood;
+    margin-bottom: 50px;
     
+}
+.nosotros{
+    font-size: 100px;
+    margin-top: 25px;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    gap: 30px;
+    border: 1px solid lavenderblush;
+    cursor: pointer;
+    width: 100%;
+    background-color: goldenrod;
+    margin-bottom: 40px;
+
+}
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    padding: 15px;
 }

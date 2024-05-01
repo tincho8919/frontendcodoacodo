@@ -55,17 +55,17 @@
     <main>
         <h1>Contactanos</h1>
         <form action="../main/show.html">
-            <label for="nombre">Nombre: </label>
-            <input type="text" name="nombre" id="nombre">
+            <label for="nombre" >Nombre: </label>
+            <input type="text" name="nombre" id="nombre" required="value" >
             <br>
             <label for="apellido">Apellido: </label>
-            <input type="text" name="apellido" id="apellido">
+            <input type="text" name="apellido" id="apellido" required="value">
             <br>
             <label for="edad">Edad: </label>
-            <input type="number" name="edad" id="edad">
+            <input type="number" name="edad" id="edad"required="number">
             <br>
             <label for="mail">E-mail: </label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" required="@">
             <br>
             <label for="genero">Genero: </label>
             <input type="radio" name="genero" value="Femenino">Femenino
@@ -92,7 +92,7 @@
             <br><br>
             <label for="comentarios">Comentarios: </label>
             <br>
-            <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+            <textarea name="comentarios" id="comentarios" cols="40" rows="20" required="value"></textarea>
             <br>
             <input type="submit" value="Enviar">
         </form>

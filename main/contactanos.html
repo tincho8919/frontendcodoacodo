@@ -54,15 +54,20 @@
     </header>
     <main>
         <h1>Contactanos</h1>
-        <form action="../main/show.html">
-            <label for="nombre" >Nombre: </label>
-            <input type="text" name="nombre" id="nombre" required="value" >
+        <form action="../main/show.html" method="get">
+            <br>
+            <label for="imagen">URL de la imagen:</label>
+            <input type="url" name="imagen" id="imagen" required>
+            <br>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre" required="value">
             <br>
             <label for="apellido">Apellido: </label>
             <input type="text" name="apellido" id="apellido" required="value">
             <br>
+            <br>
             <label for="edad">Edad: </label>
-            <input type="number" name="edad" id="edad"required="number">
+            <input type="number" name="edad" id="edad" required="number">
             <br>
             <label for="mail">E-mail: </label>
             <input type="email" name="email" id="email" required="@">

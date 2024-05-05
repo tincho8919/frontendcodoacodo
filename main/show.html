@@ -52,70 +52,74 @@
     </nav>
   </header>
   <div class="col-6 col-s-9">
-    <div align=center>
-      <p align=center>&nbsp;</p>
-      <h1 align=center>
-        <font size="+1">La siguiente informacion has enviado tu para nuestro informe:
-        </font>
-      </h1>
+    <div align="center">
+        <p align="center">&nbsp;</p>
+        <h1 align="center">
+            <font size="+1">La siguiente información has enviado tu para nuestro informe:</font>
+        </h1>
 
-      <div>
-        <table border="1" align=center width="226">
-          <tr>
-            <th align="center">Formulario</th>
-            <th align="center">Informacion enviada</th>
-          </tr>
+        <div>
+            <table border="1" align="center" width="226">
+                <tr>
+                    <th align="center">Formulario</th>
+                    <th align="center">Información enviada</th>
+                </tr>
 
+                <script>
+                    var args = location.search.substr(1).split('&');
+                    for (var i = 0; i < args.length; ++i) {
+                        var parts = args[i].split('=');
+                        if (parts != null) {
+                            var field = parts[0];
+                            var value = parts[1];
+                            if (value == null) {
+                                value = "null";
+                            } else {
+                                value = decodeURIComponent(value.replace(/\+/g, ' '));
+                            }
 
-          <script language="javascript">
-            var args = location.search.substr(1).split('&');
-            for (var i = 0; i < args.length; ++i) {
-              var parts = args[i].split('=');
-              if (parts != null) {
-                var field = parts[0];
-                var value = parts[1];
-                if (value == null) {
-                  value = "null"
-                }
-                else {
-                  value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
-                }
+                            if (field === "imagen") {
+                                // Si el campo es "imagen", agrega una fila con la imagen adjunta
+                                document.writeln('<tr><td align="center">' + field + '</td>');
+                                document.writeln('<td align="center"><img src="' + value + '" alt="Imagen enviada" style="max-width: 100%;"></td></tr>');
+                            } else {
+                                document.writeln('<tr><td align="center">' + field + '</td>');
+                                document.writeln('<td align="center">' + value + '</td></tr>');
+                            }
+                        }
+                    }
+                </script>
 
-                document.writeln('<tr><td align="center">' + field + '</td>');
-                document.writeln('<td align="center">' + value + '</td></tr>');
-              }
-            }
-          </script>
+                <noscript>
+                    <tr>
+                        <td>
+                            <p>You need to turn on Javascript in your browser.</p>
 
-          <noscript>
-            <tr>
-              <td>
-                <p>You need to turn on Javascript in your browser.</p>
+                            <p>In Microsoft Internet Explorer 4 or greater:</p>
+                            <ul>
+                                <li>From the "Tools" main (in IE 4, it's the "View" main), select "Internet Options".</li>
+                                <li>Click on the "Security" tab.</li>
+                                <li>Click on the "Custom Level" button. (In IE 4, select "Custom"
+                                    and then click on "Settings...".)</li>
+                                <li>Under "Active scripting" make sure "Enable" is selected.</li>
+                            </ul>
 
-                <p>In Microsoft Internet Explorer 4 or greater:</p>
-                <ul>
-                  <li>From the "Tools" main (in IE 4, it's the "View" main), select "Internet Options".</li>
-                  <li>Click on the "Security" tab.</li>
-                  <li>Click on the "Custom Level" button. (In IE 4, select "Custom"
-                    and then click on "Settings...".)</li>
-                  <li>Under "Active scripting" make sure "Enable" is selected.</li>
-                </ul>
-
-                <p>In Netscape version 4 or greater:</p>
-                <ul>
-                  <li>From the <b>Edit</b> main, select <b>Preferences</b>.</li>
-                  <li>In the <b>Category</b> list on the left, click on the word "Advanced".</li>
-                  <li>In the panel on the right, make sure "Enable JavaScript" is checked.</li>
-                  <li>Click the <b>OK</b> button.</li>
-                </ul>
-              </td>
-            </tr>
-          </noscript>
-        </table>
-      </div>
+                            <p>In Netscape version 4 or greater:</p>
+                            <ul>
+                                <li>From the <b>Edit</b> main, select <b>Preferences</b>.</li>
+                                <li>In the <b>Category</b> list on the left, click on the word "Advanced".</li>
+                                <li>In the panel on the right, make sure "Enable JavaScript" is checked.</li>
+                                <li>Click the <b>OK</b> button.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </noscript>
+            </table>
+        </div>
     </div>
-  </div>
-  </div>
+</div>
+
+
   <footer class="text-center text-lg-start text-white" style="background-color: #929fba">
     <div class="container p-4 pb-0">
       <section class="">

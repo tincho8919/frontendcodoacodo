@@ -54,8 +54,19 @@
     </header>
     <main>
         <h1 class="h1">Api Zapatillas</h1>
-        <div class="contenedor">
-
+        <div id="app">
+           <div class="contenedor">
+                <div v-for="elemento in datos" class="tarjeta">
+                    <div class="cuerpo">
+                        <img class="img" :src="elemento.imagen" :alt="elemento.nombre">
+                        <p>{{elemento.id}}</p>
+                        <h1>{{elemento.nombre}}</h1>
+                        <h2>{{elemento.marca}}</h2>
+                        <p>{{elemento.talla}}</p>
+                        <p>{{elemento.genero}}</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <footer class="text-center text-lg-start text-white" style="background-color: #929fba">
@@ -155,8 +166,8 @@
             <a class="text-white" href="https://mdbootstrap.com/">Codo a Codo</a>
         </div>
     </footer>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="../JS/api.js"></script>
-    <script src="../JS/productos.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>

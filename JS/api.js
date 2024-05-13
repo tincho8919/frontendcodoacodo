@@ -1,4 +1,58 @@
-let dato = [
+
+const { createApp } = Vue
+createApp({
+  data() {
+    return {
+      url: "../JS/api.json",
+      datos: [],
+      error: false,
+    }
+  },
+  methods: {
+    fetchData(url) {
+      fetch(url)
+        .then(response => response.json())
+        .then(
+          data => {
+            console.log(data)
+            this.datos = data
+          }
+        )
+        .catch(error => {
+          console.log("Error:" + error)
+          this.error = true
+        });
+    }
+  },   
+created() { 
+  this.fetchData(this.url)
+}
+}).mount('#app')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* let dato = [
     {
         id: 1,
         nombre: "Just",
@@ -109,4 +163,4 @@ for (elemento of dato) {
     </div>
     </div>`
 }
-document.querySelector(".contenedor").innerHTML = zapatillas
+document.querySelector(".contenedor").innerHTML = zapatillas */

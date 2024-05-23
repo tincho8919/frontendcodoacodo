@@ -11,12 +11,12 @@
 //integrante que tuvo problemas familiares en hospiital 
     no me puedo contactar para su dni
     pero estuvo en accion
- -Cristian Sangiorgio dni:
+ -Cristian Sangiorgio dni:- email:-
 
 
  Tematica : Clazados
 
- -Se trata de un e-commers de calsados, totalmete responsive, con flex y grilla en las tarjetas ,
+ -Se trata de un e-commers de calzados, totalmete responsive, con flex y grilla en las tarjetas ,
  un formulario con todo lo pedido e validacion js, home con carrusel, 2 paginas para agregar al carrito,
  un carrito de compra con funcinalidad todos los botones delete y comprar con factura e precio final..
  api con vue casera bien echa en la pagina zapatillas responsive,etc..

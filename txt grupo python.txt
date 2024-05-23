@@ -1,33 +1,39 @@
- Trabajo practico Codo a codo Frontend
+*Trabajo Práctico Codo a Codo Frontend*
 
- grupo: Python
+*Grupo:* Python
 
- integrantes :
- -Martin Fino dni:34697932 email:tincho8919@gmail.com
+*Integrantes:*
+- Martin Fino 
+  - DNI: 34.697.932 
+  - Email: tincho8919@gmail.com
 
+- Morel Arminda Anahi 
+  - DNI: 38.575.721 
+  - Email: a.anahimorel@gmail.com
 
- -Morel Arminda Anahi dni:38575721  email: a.anahimorel@gmail.com
+- Cristian Sangiorgio 
+  - DNI: [Pendiente debido a problemas familiares]
 
-//integrante que tuvo problemas familiares en hospiital 
-    no me puedo contactar para su dni
-    pero estuvo en accion
- -Cristian Sangiorgio dni:- email:-
+*Temática:* Calzados
 
+*Descripción del Proyecto:*
+Se trata de un e-commerce de calzados, totalmente responsive, implementado con Flexbox y Grid en las tarjetas de productos. Incluye un formulario con validación en JavaScript, una página principal con carrusel y dos páginas adicionales para agregar productos al carrito.
 
- Tematica : Clazados
+*Funcionalidades:*
+- Carrito de compras con todas las funcionalidades: botones de eliminar y comprar, factura con precio final.
+- API implementada con Vue casera.
+- Página de zapatillas responsive.
+- Animaciones en el logo y título.
+- Efectos en los cursores al pasar por los títulos y páginas.
+- Página "Sobre Nosotros" tipo one-page, navegable y con uso de Flexbox.
+- Tarjetas de productos implementadas con Grid.
 
- -Se trata de un e-commers de calzados, totalmete responsive, con flex y grilla en las tarjetas ,
- un formulario con todo lo pedido e validacion js, home con carrusel, 2 paginas para agregar al carrito,
- un carrito de compra con funcinalidad todos los botones delete y comprar con factura e precio final..
- api con vue casera bien echa en la pagina zapatillas responsive,etc..
- en el logo y titulo animaciones y tambien en los cursores al pasar por ellos los titulos y las
- paginas navegables e una pagina onepage sobre nosotros(la empresa)
- api y la pagina sobre nosotros e icono y titulo estan con flex
- tarjetas de los productos estan con grilla...(use ambas felx y grilla)
- se usa fuentes:
-locales o bien de Google Fonts:font-family: "Playfair Display", serif;
-el proyecto esta en la web navegable totalmente funcionando bien en el tiempo actual
+*Fuentes Utilizadas:*
+- Fuentes locales o bien de Google Fonts: 
+  - font-family: "Playfair Display", serif;
 
-web: https://codoacodofrontendpython.netlify.app/
+*Enlaces del Proyecto:*
+- [Web](https://codoacodofrontendpython.netlify.app/)
+- [GitHub](https://github.com/tincho8919/frontendcodoacodo.git)
 
-github: https://github.com/tincho8919/frontendcodoacodo.git
+El proyecto está completamente funcional y navegable a la fecha actual.

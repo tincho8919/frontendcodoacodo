@@ -31,7 +31,7 @@ Se trata de un e-commerce de calzados, totalmente responsive, implementado con F
 *Fuentes Utilizadas:*
 - Fuentes locales o bien de Google Fonts: 
   - font-family: "Playfair Display", serif;
-
+-iframe: esta debajo del formulario de contactos
 *Enlaces del Proyecto:*
 - [Web](https://codoacodofrontendpython.netlify.app/)
 - [GitHub](https://github.com/tincho8919/frontendcodoacodo.git)

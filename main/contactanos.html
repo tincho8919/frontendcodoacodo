@@ -54,30 +54,36 @@
     </header>
     <main>
         <h1>Contactanos</h1>
-        <form action="../main/show.html" method="get">
+        <form id="miFormulario" action="show.html" method="get">
             <br>
             <label for="imagen">URL de la imagen:</label>
             <input type="url" name="imagen" id="imagen" required>
+            <span id="imagenError" class="error"></span>
             <br>
             <label for="nombre">Nombre: </label>
-            <input type="text" name="nombre" id="nombre" required="value">
+            <input type="text" name="nombre" id="nombre" required>
+            <span id="nombreError" class="error"></span>
             <br>
             <label for="apellido">Apellido: </label>
-            <input type="text" name="apellido" id="apellido" required="value">
+            <input type="text" name="apellido" id="apellido" required>
+            <span id="apellidoError" class="error"></span>
             <br>
             <br>
             <label for="edad">Edad: </label>
-            <input type="number" name="edad" id="edad" required="number">
+            <input type="number" name="edad" id="edad" required>
+            <span id="edadError" class="error"></span>
             <br>
             <label for="mail">E-mail: </label>
-            <input type="email" name="email" id="email" required="@">
+            <input type="email" name="email" id="email" required>
+            <span id="emailError" class="error"></span>
             <br>
             <label for="genero">Genero: </label>
             <input type="radio" name="genero" value="Femenino">Femenino
             <input type="radio" name="genero" value="Masculino">Masculino
             <input type="radio" name="genero" value="Otro">Otro
+            <span id="generoError" class="error"></span>
             <br>
-
+    
             <label for="conocimientos">Conocimientos: </label>
             <input type="checkbox" name="conocimientos" value="HTML">HTML
             <input type="checkbox" name="conocimientos" value="CSS">CSS
@@ -88,18 +94,19 @@
             <br>
             <label for="estudio">Estudios</label>
             <select name="estudio" id="estudio">
-                <option value="Primaria" name="estudio">Primaria</option>
-                <option value="Secundaria" name="estudio">Secundaria</option>
-                <option value="Terciario" name="estudio">Terciario</option>
-                <option value="Universitario" name="estudio">Universitario</option>
+                <option value="Primaria">Primaria</option>
+                <option value="Secundaria">Secundaria</option>
+                <option value="Terciario">Terciario</option>
+                <option value="Universitario">Universitario</option>
             </select>
-
             <br><br>
             <label for="comentarios">Comentarios: </label>
             <br>
-            <textarea name="comentarios" id="comentarios" cols="40" rows="20" required="value"></textarea>
+            <textarea name="comentarios" id="comentarios" cols="40" rows="20" required></textarea>
+            <span id="comentariosError" class="error"></span>
             <br>
             <input type="submit" value="Enviar">
+            <span id="formStatus" class="success"></span>
         </form>
         <h2>Podes encontrarnos en el los siguientes puntos del pais :</h2>
         <iframe
@@ -208,6 +215,7 @@
             <a class="text-white" href="https://mdbootstrap.com/">Codo a Codo</a>
         </div>
     </footer>
+    <script src="../JS/contactanos.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
